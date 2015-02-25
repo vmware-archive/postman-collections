@@ -74,6 +74,17 @@
 			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
 		},
 		{
+			"id": "d22f30e5-da39-67f1-cb97-e17a766e354c",
+			"name": "export",
+			"description": "",
+			"order": [
+				"16bf31f2-a83e-4c61-85f7-2f2584c1dde6",
+				"3246cd6e-6718-14d4-0775-3801587bb642"
+			],
+			"collection_name": "Tracker-v5-API-examples",
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+		},
+		{
 			"id": "ea24b7b1-9478-ce19-8d96-13270bb6d179",
 			"name": "history",
 			"description": "",
@@ -192,6 +203,28 @@
 			"synced": false
 		},
 		{
+			"id": "16bf31f2-a83e-4c61-85f7-2f2584c1dde6",
+			"headers": "X-TrackerToken: {{token}}\nContent-Type: application/json\n",
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/export",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Export selected stories for a specific project",
+			"description": "Story_ids must be in array of integers in the request body\nTo get all story ID's in a project see the stories endpoint examples",
+			"descriptionFormat": "html",
+			"time": 1424901715307,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false,
+			"rawModeData": "{\"story_ids\" : [86327814]}"
+		},
+		{
 			"id": "28f5dd21-1572-9fd2-1e22-6a944be2846e",
 			"headers": "X-TrackerToken: {{token}}\n",
 			"url": "https://{{url}}/services/v5/projects/{{project_id}}/stories?created_before=1423900800000&created_after=1423296000000&fields=story_type,created_at",
@@ -271,6 +304,28 @@
 			"helperAttributes": {},
 			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
 			"synced": false
+		},
+		{
+			"id": "3246cd6e-6718-14d4-0775-3801587bb642",
+			"headers": "X-TrackerToken: {{token}}\nContent-Type: application/json\n",
+			"url": "https://{{url}}/services/v5/stories/export",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Export selected stories for any project",
+			"description": "ids must be in array of integers in the request body",
+			"descriptionFormat": "html",
+			"time": 1424901738605,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false,
+			"rawModeData": "{\"ids\" : [{{story_id}}]}"
 		},
 		{
 			"id": "33bd19f2-6038-af33-5462-3e4f77297ac2",
