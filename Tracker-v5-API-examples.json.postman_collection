@@ -1,0 +1,716 @@
+{
+	"id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+	"name": "Tracker-v5-API-examples",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"id": "889b392d-04eb-6eb5-1120-3a35857c534b",
+			"name": "accounts",
+			"description": "",
+			"order": [
+				"322b7c11-031b-d9bc-f7a2-ef82b9fc142c",
+				"ae7be107-cb02-04c4-dc12-7d0bf9451c0c",
+				"e8e3504b-424c-5abf-4a4f-a0e9ee8fc7b6",
+				"ed5c391a-e679-2db3-d452-b3ced0edc54d",
+				"c0a5f245-2ca5-8f8d-48de-2ae24d2822fc",
+				"c6a43a1c-d6ae-e2c0-298f-33d448872244"
+			],
+			"collection_name": "Tracker-v5-API-examples",
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+		},
+		{
+			"id": "9bd6a39c-1fe7-0c45-2c6d-e836976cd84a",
+			"name": "activity",
+			"description": "",
+			"order": [
+				"cb1d4c97-6ac3-46dc-b7e7-42c061185aad",
+				"c003598e-83d7-8905-626b-b1ac7afbaabb",
+				"dc12b9e6-015f-c3f7-be82-9dc5dd0f41d9",
+				"33bd19f2-6038-af33-5462-3e4f77297ac2",
+				"f2ac5087-c6c5-5ccd-24c5-c42ee9e13aa6"
+			],
+			"collection_name": "Tracker-v5-API-examples",
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+		},
+		{
+			"id": "686c9075-2d00-7dbe-0805-f2be43d87998",
+			"name": "epics",
+			"description": "",
+			"order": [
+				"dcb17324-8e2f-11df-cef0-900ad93a5a8c",
+				"8e3e4eb6-bd56-f49b-b0b0-4eeb5b96742a",
+				"aabb8c63-9382-147b-976f-7154d3c1e21b",
+				"68d157b8-1de6-d4f6-cded-846ca70f06e0",
+				"951cffb9-a083-10a4-2aa1-5bc285164cb2",
+				"ab0e8693-3439-2b84-d916-576c5421443b",
+				"c893665f-2e00-e02a-dab3-28956a311238"
+			],
+			"collection_name": "Tracker-v5-API-examples",
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+		}
+	],
+	"timestamp": 1424823370220,
+	"synced": false,
+	"remoteLink": "",
+	"requests": [
+		{
+			"id": "322b7c11-031b-d9bc-f7a2-ef82b9fc142c",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/accounts/{{account_id}}?fields=:default,days_left,over_the_limit,project_ids",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [
+				{
+					"key": "email",
+					"value": "foobar@example.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "initials",
+					"value": "FB",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Foo Bar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "account",
+			"description": "Fetch the content of the specified account.",
+			"descriptionFormat": "html",
+			"time": 1424823421805,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "33bd19f2-6038-af33-5462-3e4f77297ac2",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/epics/{{epic_id}}/activity?limit=100&offset=0",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [
+				{
+					"key": "email",
+					"value": "foobar@example.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "initials",
+					"value": "FB",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Foo Bar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "epic activity with limit and offset",
+			"description": "Returns a list of the selected epic's activity",
+			"descriptionFormat": "html",
+			"time": 1424823731394,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "68d157b8-1de6-d4f6-cded-846ca70f06e0",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/epics",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "Tracker beams",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "add epic",
+			"description": "create an epic with a name\n",
+			"descriptionFormat": "html",
+			"time": 1424824827822,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "8e3e4eb6-bd56-f49b-b0b0-4eeb5b96742a",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/epics?filter=created_before:02/28/2015",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [
+				{
+					"key": "email",
+					"value": "foobar@example.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "initials",
+					"value": "FB",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Foo Bar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "epics with a filter",
+			"description": "Returns a list of all epics in a project that match the filter criteria\n",
+			"descriptionFormat": "html",
+			"time": 1424824255186,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "951cffb9-a083-10a4-2aa1-5bc285164cb2",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/epics/{{epic_id}}",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"name": "epic",
+			"description": "Returns the specified epic",
+			"descriptionFormat": "html",
+			"time": 1424824935080,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "aabb8c63-9382-147b-976f-7154d3c1e21b",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/epics?filter=created_before:02/28/2015&fields=:default,comments,label_id,followers",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [
+				{
+					"key": "email",
+					"value": "foobar@example.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "initials",
+					"value": "FB",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Foo Bar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "epics with a filter and selected fields",
+			"description": "Returns a list of all epics in a project that match the filter criteria\nand asks for additional fields",
+			"descriptionFormat": "html",
+			"time": 1424824450789,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "ab0e8693-3439-2b84-d916-576c5421443b",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/epics/{{epic_id}}",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"name": "delete epic",
+			"description": "Deletes the specified epic",
+			"descriptionFormat": "html",
+			"time": 1424825017975,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "ae7be107-cb02-04c4-dc12-7d0bf9451c0c",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/accounts",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [
+				{
+					"key": "email",
+					"value": "foobar@example.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "initials",
+					"value": "FB",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Foo Bar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "accounts",
+			"description": "Get all the accounts of which a user is an owner or admin.",
+			"descriptionFormat": "html",
+			"time": 1424823434584,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "c003598e-83d7-8905-626b-b1ac7afbaabb",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/activity?limit=100&offset=0&occurred_before=1422601200000&occurred_after=1420095600000&date_format=millis",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [
+				{
+					"key": "email",
+					"value": "foobar@example.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "initials",
+					"value": "FB",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Foo Bar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "project activity",
+			"description": "Returns a list of the selected project activity",
+			"descriptionFormat": "html",
+			"time": 1424823617312,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "c0a5f245-2ca5-8f8d-48de-2ae24d2822fc",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/account_summaries?with_permission=administration",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [
+				{
+					"key": "email",
+					"value": "foobar@example.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "initials",
+					"value": "FB",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Foo Bar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "account summaries",
+			"description": "Fetches a summary of the accounts the token user is a member of\n",
+			"descriptionFormat": "html",
+			"time": 1424823468707,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "c6a43a1c-d6ae-e2c0-298f-33d448872244",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/accounts/{{account_id}}/memberships",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"data": [
+				{
+					"key": "email",
+					"value": "foobar@example.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "initials",
+					"value": "FB",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Foo Bar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "add account membership",
+			"description": "Add a new user to an account",
+			"descriptionFormat": "html",
+			"time": 1424823481487,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "c893665f-2e00-e02a-dab3-28956a311238",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/epics/{{epic_id}}",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "Updated Tracker beams",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "update epic",
+			"description": "Updates the specified epic",
+			"descriptionFormat": "html",
+			"time": 1424825054234,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "cb1d4c97-6ac3-46dc-b7e7-42c061185aad",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/my/activity?limit=100&offset=0",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [
+				{
+					"key": "email",
+					"value": "foobar@example.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "initials",
+					"value": "FB",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Foo Bar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "my activity with limit and offset",
+			"description": "Returns list of activity for the token user",
+			"descriptionFormat": "html",
+			"time": 1424823569008,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Response time is less than 200ms\"] = responseTime < 200;\n\ntests[\"Status code is 200\"] = responseCode.code === 200;\n\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "dc12b9e6-015f-c3f7-be82-9dc5dd0f41d9",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/stories/{{story_id}}/activity?limit=4&offset=0",
+			"pathVariables": {},
+			"preRequestScript": "postman.setEnvironmentVariable(\"epic_id\", \"1183212\");",
+			"method": "GET",
+			"data": [
+				{
+					"key": "email",
+					"value": "foobar@example.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "initials",
+					"value": "FB",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Foo Bar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "story activity with limit and offset",
+			"description": "Returns a list of the selected stories activity",
+			"descriptionFormat": "html",
+			"time": 1424823681643,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "dcb17324-8e2f-11df-cef0-900ad93a5a8c",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/epics",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [
+				{
+					"key": "email",
+					"value": "foobar@example.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "initials",
+					"value": "FB",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Foo Bar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "epics",
+			"description": "Returns a list of all epics in a project\n",
+			"descriptionFormat": "html",
+			"time": 1424824039650,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "e8e3504b-424c-5abf-4a4f-a0e9ee8fc7b6",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/accounts/{{account_id}}/memberships",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [
+				{
+					"key": "email",
+					"value": "foobar@example.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "initials",
+					"value": "FB",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Foo Bar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "account membership",
+			"description": "List all of the memberships in an account.",
+			"descriptionFormat": "html",
+			"time": 1424823453553,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "ed5c391a-e679-2db3-d452-b3ced0edc54d",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/accounts/{{account_id}}/memberships/{{person_id}}",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [
+				{
+					"key": "email",
+					"value": "foobar@example.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "initials",
+					"value": "FB",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Foo Bar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "specific account membership",
+			"description": "Returns the specified account membership",
+			"descriptionFormat": "html",
+			"time": 1424823459740,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "f2ac5087-c6c5-5ccd-24c5-c42ee9e13aa6",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/workspaces/{{workspace_id}}/activity?limit=100&offset=0&occurred_before=1422601200000&occurred_after=1420095600000&date_format=millis",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [
+				{
+					"key": "email",
+					"value": "foobar@example.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "initials",
+					"value": "FB",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "Foo Bar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "workspace activity - all parameters",
+			"description": "Returns a list of all of the activity in the workspace",
+			"descriptionFormat": "html",
+			"time": 1424823762622,
+			"version": 2,
+			"responses": [],
+			"tests": "tests[\"Response time is less than 200ms\"] = responseTime < 200;\n\ntests[\"Status code is 200\"] = responseCode.code === 200;\n\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		}
+	]
+}
