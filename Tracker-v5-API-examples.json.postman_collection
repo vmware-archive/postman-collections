@@ -17,6 +17,27 @@
 			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
 		},
 		{
+			"id": "37abe97e-d774-8c14-e3de-c3ed3c86db7b",
+			"name": "Paginating List Responses",
+			"description": "Examples of iterating through large numbers of a resource such as \niterations or stories returned from the API request.",
+			"order": [
+				"0180e162-a485-4d27-fe05-995f26b4038a"
+			],
+			"collection_name": "Tracker-v5-API-examples",
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+		},
+		{
+			"id": "f3fce110-57ff-c77d-fdeb-93dbaff5c1f3",
+			"name": "Response Customization",
+			"description": "How to customize responses, including nested resources",
+			"order": [
+				"f8d28b97-8956-ad5b-84e2-14cd22a5069f",
+				"fe6fdeb1-5c0d-58da-e2ff-5c0399bdd686"
+			],
+			"collection_name": "Tracker-v5-API-examples",
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+		},
+		{
 			"id": "889b392d-04eb-6eb5-1120-3a35857c534b",
 			"name": "accounts",
 			"description": "",
@@ -194,6 +215,26 @@
 			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
 			"synced": false,
 			"rawModeData": " \n"
+		},
+		{
+			"id": "0180e162-a485-4d27-fe05-995f26b4038a",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/stories?offset=500&limit=300&with_state=accepted&fields=name,story_type,estimate,accepted_at&envelope=true",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1425060573936,
+			"name": "Done stories using pagination",
+			"description": "return a list of stories where pagination\nis required due to the number of stories\nthat meet the filtering criteria.\nSpecify envelope=true to see the total of all stories,\nand the limit and offset specified in the\nAPI request.\nIn this case, fewer stories are returned\nthan the limit specified, because there\naren't 300 accepted stories starting with\nthe offset of 500.",
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"responses": [],
+			"synced": false
 		},
 		{
 			"id": "08945acc-ce04-b6b2-6529-dfe1d4821973",
@@ -1449,6 +1490,26 @@
 			"synced": false
 		},
 		{
+			"id": "f8d28b97-8956-ad5b-84e2-14cd22a5069f",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/iterations?scope=done&fields=number,team_strength,stories(name,story_type,estimate,owners(name,email))",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "tests[\"Response time is less than 200ms\"] = responseTime < 200;\n\ntests[\"Status code is 200\"] = responseCode.code === 200;\n\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1425057244668,
+			"name": "iterations with customized response",
+			"description": "Retrieve specific fields from iteration and story resources from iterations endpoint",
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"responses": [],
+			"synced": false
+		},
+		{
 			"id": "fc84d526-3fcc-6c4c-6235-ce9183521210",
 			"headers": "X-TrackerToken: {{token}}\n",
 			"url": "https://{{url}}/services/v5/projects/{{project_id}}/webhooks",
@@ -1477,6 +1538,26 @@
 			"time": 1424882513340,
 			"name": "create webhook",
 			"description": "creates a webhook on a project",
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"responses": [],
+			"synced": false
+		},
+		{
+			"id": "fe6fdeb1-5c0d-58da-e2ff-5c0399bdd686",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/stories/{{story_id}}/comments?fields=:default,file_attachments(filename)",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1425058594916,
+			"name": "Retrieving a non-default field for a sub resource, along with the default fields for the resource",
+			"description": "Returns all comments for a selected story, and includes the name and id of any file attachments.\nFile_attachments or file_attachment_ids is not returned by default with the comment resource.",
 			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
 			"responses": [],
 			"synced": false
