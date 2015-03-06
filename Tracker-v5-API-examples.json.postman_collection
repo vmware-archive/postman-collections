@@ -11,10 +11,13 @@
 			"order": [
 				"4a41d728-779d-8ea7-16aa-604be8764131",
 				"3ccbcfb9-e837-0ac7-4b65-065d3eb42b18",
-				"8fbbeeaf-90bc-da72-30cd-422f579f3287"
+				"8fbbeeaf-90bc-da72-30cd-422f579f3287",
+				"7635523d-24bb-00fa-d187-f24677b803b7"
 			],
 			"collection_name": "Tracker-v5-API-examples",
-			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"collection_owner": "29680",
+			"write": true
 		},
 		{
 			"id": "37abe97e-d774-8c14-e3de-c3ed3c86db7b",
@@ -24,7 +27,9 @@
 				"0180e162-a485-4d27-fe05-995f26b4038a"
 			],
 			"collection_name": "Tracker-v5-API-examples",
-			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"collection_owner": "29680",
+			"write": true
 		},
 		{
 			"id": "f3fce110-57ff-c77d-fdeb-93dbaff5c1f3",
@@ -35,7 +40,9 @@
 				"fe6fdeb1-5c0d-58da-e2ff-5c0399bdd686"
 			],
 			"collection_name": "Tracker-v5-API-examples",
-			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"collection_owner": "29680",
+			"write": true
 		},
 		{
 			"id": "889b392d-04eb-6eb5-1120-3a35857c534b",
@@ -51,7 +58,9 @@
 				"571eafdb-8a11-29af-e92e-d13b4980ce90"
 			],
 			"collection_name": "Tracker-v5-API-examples",
-			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"collection_owner": "29680",
+			"write": true
 		},
 		{
 			"id": "9bd6a39c-1fe7-0c45-2c6d-e836976cd84a",
@@ -65,7 +74,9 @@
 				"f2ac5087-c6c5-5ccd-24c5-c42ee9e13aa6"
 			],
 			"collection_name": "Tracker-v5-API-examples",
-			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"collection_owner": "29680",
+			"write": true
 		},
 		{
 			"id": "95c0e8fd-73e8-7dc9-2241-a0897a4af3f6",
@@ -76,7 +87,9 @@
 				"3b6fe57a-06c5-05c8-2dcd-bdaddaefa0e0"
 			],
 			"collection_name": "Tracker-v5-API-examples",
-			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"collection_owner": "29680",
+			"write": true
 		},
 		{
 			"id": "686c9075-2d00-7dbe-0805-f2be43d87998",
@@ -92,7 +105,9 @@
 				"c893665f-2e00-e02a-dab3-28956a311238"
 			],
 			"collection_name": "Tracker-v5-API-examples",
-			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"collection_owner": "29680",
+			"write": true
 		},
 		{
 			"id": "d22f30e5-da39-67f1-cb97-e17a766e354c",
@@ -103,7 +118,9 @@
 				"3246cd6e-6718-14d4-0775-3801587bb642"
 			],
 			"collection_name": "Tracker-v5-API-examples",
-			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"collection_owner": "29680",
+			"write": true
 		},
 		{
 			"id": "ea24b7b1-9478-ce19-8d96-13270bb6d179",
@@ -115,7 +132,9 @@
 				"2b14fb58-1ba9-5dc4-e9d4-8ae3ffdecb99"
 			],
 			"collection_name": "Tracker-v5-API-examples",
-			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"collection_owner": "29680",
+			"write": true
 		},
 		{
 			"id": "3c52789f-5eea-e5bb-f276-b1e7ddf6d4a5",
@@ -125,7 +144,9 @@
 				"b9f66634-5581-1f8c-edae-bd718df117ac"
 			],
 			"collection_name": "Tracker-v5-API-examples",
-			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"collection_owner": "29680",
+			"write": true
 		},
 		{
 			"id": "b353c9d1-0f23-4a90-6e0a-18cf61381ce3",
@@ -135,7 +156,9 @@
 				"8b7227c1-014b-1b2a-2867-8dbb13770e20"
 			],
 			"collection_name": "Tracker-v5-API-examples",
-			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"collection_owner": "29680",
+			"write": true
 		},
 		{
 			"id": "a28d7be3-7a42-b671-6c30-ced121914b34",
@@ -147,7 +170,9 @@
 				"fc84d526-3fcc-6c4c-6235-ce9183521210"
 			],
 			"collection_name": "Tracker-v5-API-examples",
-			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"collection_owner": "29680",
+			"write": true
 		},
 		{
 			"id": "e29f042c-1141-3114-9357-26e2a9a50d98",
@@ -157,7 +182,9 @@
 				"3f3f8c0c-868e-cb8b-9cbe-85a329290a62"
 			],
 			"collection_name": "Tracker-v5-API-examples",
-			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"collection_owner": "29680",
+			"write": true
 		},
 		{
 			"id": "b9e8728c-b34d-3899-5912-414e7c05ba1d",
@@ -176,7 +203,9 @@
 				"70bc0ee5-236a-37a5-10a4-0dc75a16bd3e"
 			],
 			"collection_name": "Tracker-v5-API-examples",
-			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"collection_owner": "29680",
+			"write": true
 		},
 		{
 			"id": "5759f374-6bdf-96cc-b155-9a02e9a5ad44",
@@ -187,12 +216,18 @@
 				"4a302f87-6a6b-090d-8edd-d37374b76ace"
 			],
 			"collection_name": "Tracker-v5-API-examples",
-			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2"
+			"collection_id": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"collection_owner": "29680",
+			"write": true
 		}
 	],
 	"timestamp": 1424823370220,
 	"synced": false,
+	"owner": "29680",
+	"subscribed": false,
 	"remoteLink": "",
+	"public": false,
+	"write": true,
 	"requests": [
 		{
 			"id": "0091edeb-7d21-0ba2-6e09-c111b9932447",
@@ -260,22 +295,28 @@
 		{
 			"id": "12935969-263a-6185-4faa-d1e0842a7fc9",
 			"headers": "X-TrackerToken: {{token}}\n",
-			"url": "https://{{url}}//services/v5/projects/{{project_id}}/history/iterations/{{iteration_id}}//days?label='commit'",
-			"pathVariables": {},
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/history/iterations/{{iteration_id}}//days?label='commit'",
 			"preRequestScript": "",
+			"pathVariables": {},
 			"method": "GET",
-			"data": [],
+			"data": [
+				{
+					"key": "name",
+					"value": "Updated Tracker beams",
+					"type": "text",
+					"enabled": true
+				}
+			],
 			"dataMode": "params",
-			"name": "iterations with label",
-			"description": "gets the history of an iteration that matches a label",
-			"descriptionFormat": "html",
-			"time": 1424882271923,
 			"version": 2,
-			"responses": [],
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
+			"time": 1425667663394,
+			"name": "iterations with label",
+			"description": "gets the history of an iteration that matches a label",
 			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"responses": [],
 			"synced": false
 		},
 		{
@@ -345,22 +386,28 @@
 		{
 			"id": "2b14fb58-1ba9-5dc4-e9d4-8ae3ffdecb99",
 			"headers": "X-TrackerToken: {{token}}\n",
-			"url": "https://{{url}}//services/v5/projects/{{project_id}}/history/releases/{{release_id}}/days?label='commit'",
-			"pathVariables": {},
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/history/releases/{{release_id}}/days?label=commit",
 			"preRequestScript": "",
+			"pathVariables": {},
 			"method": "GET",
-			"data": [],
+			"data": [
+				{
+					"key": "name",
+					"value": "Updated Tracker beams",
+					"type": "text",
+					"enabled": true
+				}
+			],
 			"dataMode": "params",
-			"name": "releases with label",
-			"description": "gets the history of a release with a particular label",
-			"descriptionFormat": "html",
-			"time": 1424882293084,
 			"version": 2,
-			"responses": [],
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
+			"time": 1425667669166,
+			"name": "releases with label",
+			"description": "gets the history of a release with a particular label\nlabel must be url-encoded",
 			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"responses": [],
 			"synced": false
 		},
 		{
@@ -531,30 +578,29 @@
 		{
 			"id": "3f3f8c0c-868e-cb8b-9cbe-85a329290a62",
 			"headers": "X-TrackerToken: {{token}}\n",
-			"url": "https://{{url}}/services/v5/projects/{{project_id}}/search?query=story_type:release&fields=stories(stories(id,current_state,updated_at))",
-			"pathVariables": {},
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/search?query=story_type:release&fields=stories(total_hits,stories(id,current_state,updated_at))",
 			"preRequestScript": "",
+			"pathVariables": {},
 			"method": "GET",
 			"data": [],
 			"dataMode": "params",
-			"name": "search for state",
-			"description": "returns a list of all stories in a project in the selected state",
-			"descriptionFormat": "html",
-			"time": 1424882373374,
 			"version": 2,
-			"responses": [],
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
+			"time": 1425667486827,
+			"name": "search for state",
+			"description": "returns the total count and a list of all stories in a project in the selected state",
 			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"responses": [],
 			"synced": false
 		},
 		{
 			"id": "46a0514b-83a8-988d-3ece-7a7c9a8fa524",
 			"headers": "X-TrackerToken: {{token}}\n",
-			"url": "https://{{url}}//services/v5/projects/{{project_id}}/stories",
-			"pathVariables": {},
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/stories",
 			"preRequestScript": "",
+			"pathVariables": {},
 			"method": "POST",
 			"data": [
 				{
@@ -571,16 +617,15 @@
 				}
 			],
 			"dataMode": "urlencoded",
-			"name": "add bug with Name",
-			"description": "adds a bug with Name only",
-			"descriptionFormat": "html",
-			"time": 1424882151638,
 			"version": 2,
-			"responses": [],
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
+			"time": 1425667716621,
+			"name": "add bug with Name",
+			"description": "adds a bug with Name only",
 			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"responses": [],
 			"synced": false
 		},
 		{
@@ -606,22 +651,21 @@
 		{
 			"id": "4a41d728-779d-8ea7-16aa-604be8764131",
 			"headers": "X-TrackerToken: {{token}}\nContent-Type: application/json\n",
-			"url": "https://{{url}}//services/v5/projects/{{project_id}}/stories",
-			"pathVariables": {},
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/stories",
 			"preRequestScript": "",
+			"pathVariables": {},
 			"method": "POST",
 			"data": [],
 			"dataMode": "raw",
-			"name": "add story with a new label",
-			"description": "adds a story and creates a label",
-			"descriptionFormat": "html",
-			"time": 1424901141419,
 			"version": 2,
-			"responses": [],
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
+			"time": 1425667545968,
+			"name": "add story with a new label",
+			"description": "adds a story and creates/adds a label\nlabels must be an array of name:value, id:value, \nor a combiination",
 			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"responses": [],
 			"synced": false,
 			"rawModeData": "{\"name\":\"Create story w/create label\",\"labels\":[{\"name\":\"orbit\"}]}"
 		},
@@ -727,6 +771,28 @@
 			"currentHelper": "normal",
 			"helperAttributes": {},
 			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"synced": false
+		},
+		{
+			"id": "7635523d-24bb-00fa-d187-f24677b803b7",
+			"headers": "X-TrackerToken: {{token}}\n",
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/labels?fields=counts",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"data": [],
+			"dataMode": "params",
+			"name": "fetch all story counts for labels in a specific project",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1425509785620,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "ef74b820-1fa0-8968-8363-ac57fb872d6b",
 			"synced": false
 		},
 		{
@@ -1169,8 +1235,8 @@
 			"id": "cb1d4c97-6ac3-46dc-b7e7-42c061185aad",
 			"headers": "X-TrackerToken: {{token}}\n",
 			"url": "https://{{url}}/services/v5/my/activity?limit=100&offset=0",
-			"pathVariables": {},
 			"preRequestScript": "",
+			"pathVariables": {},
 			"method": "GET",
 			"data": [
 				{
@@ -1193,16 +1259,15 @@
 				}
 			],
 			"dataMode": "params",
-			"name": "my activity with limit and offset",
-			"description": "Returns list of activity for the token user",
-			"descriptionFormat": "html",
-			"time": 1424823569008,
 			"version": 2,
-			"responses": [],
-			"tests": "tests[\"Response time is less than 200ms\"] = responseTime < 200;\n\ntests[\"Status code is 200\"] = responseCode.code === 200;\n\n",
+			"tests": "\n\n",
 			"currentHelper": "normal",
 			"helperAttributes": {},
+			"time": 1425667590102,
+			"name": "my activity with limit and offset",
+			"description": "Returns list of activity for the token user",
 			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"responses": [],
 			"synced": false
 		},
 		{
@@ -1330,22 +1395,28 @@
 		{
 			"id": "e6295cec-b4ba-9d7c-c500-d153d9dcfe1e",
 			"headers": "X-TrackerToken: {{token}}\n",
-			"url": "https://{{url}}//services/v5/projects/{{project_id}}/history/days?label='commit'&start_date=2015-01-01&end_date=2015-01-10",
-			"pathVariables": {},
+			"url": "https://{{url}}/services/v5/projects/{{project_id}}/history/days?label='commit'&start_date=2015-01-01&end_date=2015-01-10",
 			"preRequestScript": "",
+			"pathVariables": {},
 			"method": "GET",
-			"data": [],
+			"data": [
+				{
+					"key": "name",
+					"value": "Updated Tracker beams",
+					"type": "text",
+					"enabled": true
+				}
+			],
 			"dataMode": "params",
-			"name": "projects with label and start and end dates",
-			"description": "gets all history for a project that matches a label and is within selected dates",
-			"descriptionFormat": "html",
-			"time": 1424882229082,
 			"version": 2,
-			"responses": [],
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
+			"time": 1425667657311,
+			"name": "projects with label and start and end dates",
+			"description": "gets all history for a project that matches a label and is within selected dates",
 			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"responses": [],
 			"synced": false
 		},
 		{
@@ -1453,8 +1524,8 @@
 			"id": "f2ac5087-c6c5-5ccd-24c5-c42ee9e13aa6",
 			"headers": "X-TrackerToken: {{token}}\n",
 			"url": "https://{{url}}/services/v5/workspaces/{{workspace_id}}/activity?limit=100&offset=0&occurred_before=1422601200000&occurred_after=1420095600000&date_format=millis",
-			"pathVariables": {},
 			"preRequestScript": "",
+			"pathVariables": {},
 			"method": "GET",
 			"data": [
 				{
@@ -1477,16 +1548,15 @@
 				}
 			],
 			"dataMode": "params",
-			"name": "workspace activity - all parameters",
-			"description": "Returns a list of all of the activity in the workspace",
-			"descriptionFormat": "html",
-			"time": 1424823762622,
 			"version": 2,
-			"responses": [],
-			"tests": "tests[\"Response time is less than 200ms\"] = responseTime < 200;\n\ntests[\"Status code is 200\"] = responseCode.code === 200;\n\n",
+			"tests": "\n\n",
 			"currentHelper": "normal",
 			"helperAttributes": {},
+			"time": 1425667609037,
+			"name": "workspace activity - all parameters",
+			"description": "Returns a list of all of the activity in the workspace",
 			"collectionId": "ae581a0e-35fb-db05-88ff-d3d3dc5a84f2",
+			"responses": [],
 			"synced": false
 		},
 		{
