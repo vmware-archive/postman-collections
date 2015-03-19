@@ -2,6 +2,8 @@
 
 This repository is a collection of example queries for the Pivotal Tracker v5 API formatted for the Postman rest client.
 
+The Pivotal Tracker v5 API is documented here -- http://www.pivotaltracker.com/help/api/rest/v5
+
 You can get Postman as a Chrome extension from
 
   http://www.google.com/url?q=http%3A%2F%2Fshoptotrot.com&sa=D&sntz=1&usg=AFQjCNHjAhrpTYe6Jy78Dk1NFRLDrHAk6A
@@ -18,9 +20,14 @@ Once you're in Postman (either the Chrome extension or the packaged app), import
 
 Postman is well documented, so please refer to the Postman documentation for instructions on how to use collections.
 
-We have also provided a sample environment, which includes sample values for variables in the queries.
+We have also provided an example environment, which includes most of the variables in the queries.  
 
-To import the sample environment, go to Manage Environments in Postman and import the environment.
+To import the example environment, go to Manage Environments in Postman and import the environment.  Update the values 
+as needed, especially the token.
+
+If you receive an unauthorized response, please update the X-TrackerToken header value or the {{token}} value in the 
+example environment with your Tracker API token.  You can find your Tracker API token on your Profile page after 
+logging into Tracker.
 
 
 
