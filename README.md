@@ -6,7 +6,7 @@ The Pivotal Tracker v5 API is documented here -- http://www.pivotaltracker.com/h
 
 You can get Postman as a Chrome extension from
 
-  http://www.google.com/url?q=http%3A%2F%2Fshoptotrot.com&sa=D&sntz=1&usg=AFQjCNHjAhrpTYe6Jy78Dk1NFRLDrHAk6A
+  https://chrome.google.com/webstore/detail/postman-rest-client/fdmmgilgnpjigdojojpjoooidkmcomcm
 
 or as a packaged app from
 
